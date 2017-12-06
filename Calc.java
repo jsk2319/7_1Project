@@ -1,3 +1,8 @@
+/**
+ * @author Jude Kallista-Fitzpatrick
+ * @Date 12/6/2017
+ */
+
 public class Calc {
     public static String sort(double [] num){
         String sortList = " ";

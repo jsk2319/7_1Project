@@ -1,3 +1,8 @@
+/**
+ * @author Jude Kallista-Fitzpatrick
+ * @Date 12/6/2017
+ */
+
 import javax.swing.*;
 
 public class CalcDriver {
@@ -13,7 +18,9 @@ public class CalcDriver {
         num[7] = 16.8;
         num[8] = 9.3;
         num[9] = 14.7;
+
         System.out.println(Calc.sort(num));
+
         JOptionPane input = new JOptionPane(Calc.sort(num));
     }
 }
